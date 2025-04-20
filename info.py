@@ -11,9 +11,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'FilterBot')
-API_ID = int(environ.get('API_ID', '21863401'))
-API_HASH = environ.get('API_HASH', '5f7d3dc656c008c70bffdf7f4f9b8ebb')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6748708552:AAEya6awhAuxwhR7ujfPWsko7j1GkCjPWjk")
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', ":")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
